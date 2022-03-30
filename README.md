@@ -9,15 +9,13 @@ JMeter开发插件
 
 #### 安装教程
 
-1.  git clone https://gitee.com/LeeBaul/baolu-jmeter-plugins.git
+1.  git clone https://gitee.com/LeeBaul/baolu-aggregate-tps-report.git
 2.  mvn package 
 3.  将包copy到JMETER_HOME/lib/ext目录
 
 #### 使用说明
 
-1.  baolu-aggregate-tps-report 基于JMeter聚合报告改造的插件，增加了TPS的统计方式。
-2.  baolu-csv-data-file-config 基于JMeter的csv-data-file-config改造，增加参数化数据分块功能
-3.  baolu-functions 基于JMeter定制开发函数
+baolu-aggregate-tps-report 基于JMeter聚合报告改造的插件，增加了TPS的统计方式。
 
 #### 参与贡献
 
