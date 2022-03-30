@@ -1,21 +1,21 @@
-# baolu-jmeter-plugins
+# baolu-aggregate-tps-report
 
 #### 介绍
-JMeter开发插件
+baolu-aggregate-tps-report 基于JMeter聚合报告改造的插件，增加了TPS的统计方式。
 
 #### 软件架构
 基于JMeter官方规范开发插件
 
-
 #### 安装教程
 
-1.  git clone https://gitee.com/LeeBaul/baolu-aggregate-tps-report.git
-2.  mvn package 
-3.  将包copy到JMETER_HOME/lib/ext目录
+1. git clone https://gitee.com/LeeBaul/baolu-aggregate-tps-report.git
+2. mvn clean package 
+3. copy baolu-aggregate-tps-report-1.x.x.jar to ${JMETER_HOME}/lib/ext folder
+4. restarting the JMeter, you can see "Baolu Aggregate TPS Report" in JMeter's listener
 
 #### 使用说明
 
-baolu-aggregate-tps-report 基于JMeter聚合报告改造的插件，增加了TPS的统计方式。
+插件详细使用说明请参考 https://mp.weixin.qq.com/s/n9jhwG-50wi1FCtNQXoMnw
 
 #### 参与贡献
 
